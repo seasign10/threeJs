@@ -79,11 +79,11 @@ renderer.render(scene, camera);
 let boxY = -3;
 function draw(){
     
-    //
-    // boxY += 0.01;
-    // boxMesh.position.y = boxY;
+    
+    boxY += 0.01;
+    boxMesh.position.y = boxY;
 
-    // draw
+    draw
     renderer.render(scene, camera);
     controls.update();
     renderer.setAnimationLoop(draw);
